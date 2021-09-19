@@ -1,0 +1,16 @@
+.marginTop {
+  margin-top: 150p;
+}
+
+.ammount {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.link {
+  margin-left: 25px;
+}
+/*# sourceMappingURL=styles.css.map */

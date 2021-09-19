@@ -1,0 +1,36 @@
+{
+  "banks": [
+    {
+      "id": 1,
+      "name": "American Bank",
+      "bankId": 1
+    },
+    {
+      "id": 2,
+      "name": "Some Bank",
+      "bankId": 2
+    },
+    {
+      "id": 3,
+      "name": "Cool Bank",
+      "bankId": 3
+    },
+    {
+      "id": 4,
+      "name": "Good Bank",
+      "bankId": 4
+    },
+    {
+      "id": 5,
+      "name": "Nice Bank",
+      "bankId": 5
+    }
+  ],
+  "ammounts": [
+    {
+      "idBank": 3,
+      "ammount": "1500",
+      "id": 1
+    }
+  ]
+}
