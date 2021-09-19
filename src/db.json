@@ -31,6 +31,26 @@
       "idBank": 3,
       "ammount": "1500",
       "id": 1
+    },
+    {
+      "idBank": 4,
+      "ammount": "5000",
+      "id": 2
+    },
+    {
+      "idBank": 1,
+      "ammount": "200",
+      "id": 3
+    },
+    {
+      "idBank": "3",
+      "ammount": "5000",
+      "id": 4
+    },
+    {
+      "idBank": "3",
+      "ammount": "100",
+      "id": 5
     }
   ]
 }

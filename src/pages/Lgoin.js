@@ -4,10 +4,10 @@ const Lgoin = () => {
   return (
     <center>
       <div className="marginTop">
-        <p>Login</p>
-        <input type="email" />
-        <p>Password</p>
-        <input type="password" />
+        <h2>Login</h2>
+        <input className="input" type="email" />
+        <h2>Password</h2>
+        <input className="input" type="password" />
       </div>
     </center>
   );
