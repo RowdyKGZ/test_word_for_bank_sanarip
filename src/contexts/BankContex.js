@@ -42,11 +42,21 @@ const BankContexProvider = ({ children }) => {
     }
   };
 
-  const setAmmountBank = async (idBank, ammount) => {
+  const setNameAmountBank = async (idBank, ammount) => {
+    try {
+      let { data } = await axios(`http://127.0.0.1:8000/banks/${idBank}`);
+      setAmmountBank(data.name, ammount, idBank);
+    } catch (error) {
+      console.log(error);
+    }
+  };
+
+  const setAmmountBank = async (nameBank, ammount, idBank) => {
     try {
       let res = await axios.post(`http://127.0.0.1:8000/ammounts`, {
-        idBank,
+        nameBank,
         ammount,
+        idBank,
       });
       return res;
     } catch (error) {
@@ -74,7 +84,7 @@ const BankContexProvider = ({ children }) => {
         banks: state.banks,
         ammounts: state.ammounts,
         getBanks,
-        setAmmountBank,
+        setNameAmountBank,
         getAmmount,
       }}
     >

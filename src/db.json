@@ -28,29 +28,22 @@
   ],
   "ammounts": [
     {
-      "idBank": 3,
-      "ammount": "1500",
+      "nameBank": "American Bank",
+      "ammount": "500",
+      "idBank": 1,
       "id": 1
     },
     {
-      "idBank": 4,
-      "ammount": "5000",
+      "nameBank": "American Bank",
+      "ammount": "1000",
+      "idBank": 1,
       "id": 2
     },
     {
-      "idBank": 1,
-      "ammount": "200",
+      "nameBank": "Good Bank",
+      "ammount": "233",
+      "idBank": "4",
       "id": 3
-    },
-    {
-      "idBank": "3",
-      "ammount": "5000",
-      "id": 4
-    },
-    {
-      "idBank": "3",
-      "ammount": "100",
-      "id": 5
     }
   ]
 }

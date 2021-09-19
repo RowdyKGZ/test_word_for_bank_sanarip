@@ -3,8 +3,8 @@ import { useEffect, useState } from "react/cjs/react.development";
 import { bankContext } from "../contexts/BankContex";
 
 const Transaction = () => {
-  const { getBanks, banks, setAmmountBank } = useContext(bankContext);
-  const [idBank, setIdBank] = useState(0);
+  const { getBanks, banks, setNameAmountBank } = useContext(bankContext);
+  const [idBank, setIdBank] = useState(1);
 
   useEffect(() => {
     getBanks();
@@ -18,7 +18,7 @@ const Transaction = () => {
     event.preventDefault();
 
     const ammount = document.querySelector(".ammount").value;
-    setAmmountBank(idBank, ammount);
+    setNameAmountBank(idBank, ammount);
 
     document.querySelector(".ammount").value = "";
   };
